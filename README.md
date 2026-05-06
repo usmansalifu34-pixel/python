@@ -1,2 +1,2 @@
 # python
-for anything python related
+for my nithub python course projects

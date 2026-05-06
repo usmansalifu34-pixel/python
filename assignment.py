@@ -1,7 +1,9 @@
 print("**Grading system**");
 print("A = 71-100\nB = 61-70\nC = 51-60\nD = 41-50\nE = 31-40\nF = 0-30");
 grade = int(input("Enter the student's grade:"));
-if grade<=30:
+if grade < 0 or grade > 100:
+    print("invalid grade")
+elif grade<=30:
     print("the student's grade is an F, he/she will retake the exam\n");
 elif grade>30 and grade<=40:
     print("the student's grade is an E, he/she is strongly adviced to retake the exam\n");
